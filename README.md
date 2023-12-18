@@ -61,30 +61,30 @@ The client will start at `localhost:3000`
 ## Demo
 
 - Main page
-  ![Main_page](https://github.com/CS1951V-F23/final-project-wayfare-weave/blob/main/demo_image/main_page.png)
+  ![Main_page](https://github.com/MRSA-J/Wayfare-Weave/blob/main/demo_image/main_page.png)
 
 - Log in
-  ![Log in page](https://github.com/CS1951V-F23/final-project-wayfare-weave/blob/main/demo_image/login.png)
+  ![Log in page](https://github.com/MRSA-J/Wayfare-Weave/blob/main/demo_image/login.png)
 
 - Restaurant node View
-  ![Restaurant Node](https://github.com/CS1951V-F23/final-project-wayfare-weave/blob/main/demo_image/restaurant_node.png)
+  ![Restaurant Node](https://github.com/MRSA-J/Wayfare-Weave/blob/main/demo_image/restaurant_node.png)
 
 - Clickable Map View
-  ![Map View](https://github.com/CS1951V-F23/final-project-wayfare-weave/blob/main/demo_image/map_view.png)
+  ![Map View](https://github.com/MRSA-J/Wayfare-Weave/blob/main/demo_image/map_view.png)
 
 - Calendar View
-  ![Calendar View](https://github.com/CS1951V-F23/final-project-wayfare-weave/blob/main/demo_image/calendar_view.png)
-  ![Agenda View](https://github.com/CS1951V-F23/final-project-wayfare-weave/blob/main/demo_image/agenda.png)
-  ![Calendar Day View](https://github.com/CS1951V-F23/final-project-wayfare-weave/blob/main/demo_image/calendar_day_view.png)
+  ![Calendar View](https://github.com/MRSA-J/Wayfare-Weave/blob/main/demo_image/calendar_view.png)
+  ![Agenda View](https://github.com/MRSA-J/Wayfare-Weave/blob/main/demo_image/agenda.png)
+  ![Calendar Day View]https://github.com/MRSA-J/Wayfare-Weave/blob/main/demo_image/calendar_day_view.png)
 
 - Schedule
-  ![Schedule](https://github.com/CS1951V-F23/final-project-wayfare-weave/blob/main/demo_image/schedule.png)
+  ![Schedule](https://github.com/MRSA-J/Wayfare-Weave/blob/main/demo_image/schedule.png)
 
 - Add Restaurant
-  ![Add Restaurant](https://github.com/CS1951V-F23/final-project-wayfare-weave/blob/main/demo_image/add_restaurant.png)
+  ![Add Restaurant](https://github.com/MRSA-J/Wayfare-Weave/blob/main/demo_image/add_restaurant.png)
 
 - Search
-  ![Search](https://github.com/CS1951V-F23/final-project-wayfare-weave/blob/main/demo_image/search.png)
+  ![Search](https://github.com/MRSA-J/Wayfare-Weave/blob/main/demo_image/search.png)
 
 ## Contributors
 
