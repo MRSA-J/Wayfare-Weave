@@ -1,0 +1,76 @@
+@import '../../../global/globalCssVariables';
+
+$input-margin: 10px;
+
+.modal-treeView {
+  max-height: $node-manager-max-height-in-modal;
+  overflow: auto;
+}
+
+.model-input {
+  border: 1px solid #f3f3f3;
+  height: 2rem;
+  box-sizing: border-box;
+  padding: 1px 10px;
+  margin: 5px;
+  outline: none;
+  transition: 0.2s ease-in-out;
+}
+
+.model-input:focus {
+  transition: 0.2s ease-in-out;
+  border: 1px solid blue;
+}
+
+.modal-section {
+  border-top: solid 1px $secondary-background-color;
+  margin-top: 15px;
+  padding-top: 10px;
+}
+
+.modal-title {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+
+.modal-title-tag {
+  margin-right: 5px;
+  background-color: $selected-color;
+  color: black;
+  padding: 3px 10px;
+  border-radius: 4px;
+  user-select: none;
+}
+
+.modal-error {
+  color: white;
+  font-size: 0.8rem;
+  background-color: $error-color;
+  padding: 5px 10px;
+  margin: 0px 20px;
+  position: absolute;
+  left: 0;
+  font-weight: 500;
+}
+
+.modal-footer-buttons {
+  display: flex;
+  flex-direction: row;
+  font-weight: 500;
+}
+.btn {
+  width: max-content;
+  height: 30px;
+  font-size: 15px;
+  user-select: none;
+  font-family: 'Inter', sans-serif;
+  padding: 3px 15px;
+  border-radius: 5px;
+  grid-gap: 5px;
+  gap: 5px;
+  transition: 0.3s;
+  cursor: pointer;
+  margin: 3px;
+  background-color: pink;
+}

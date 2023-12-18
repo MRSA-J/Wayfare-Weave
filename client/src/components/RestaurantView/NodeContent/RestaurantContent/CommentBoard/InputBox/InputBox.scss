@@ -1,0 +1,52 @@
+.input-box-wrapper {
+    border: 2px solid gainsboro;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+    .editable-container {
+        padding: 10px;
+        resize: none;
+        width: 100%;
+        overflow-y: auto;
+    }
+
+    .input-box-header {
+        background-color: #f0efed;
+        height: 40px;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        padding-left: 15px;
+    }
+    .input-box-footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+        height: max-content;
+        width: max-content;
+    }
+    .icon-wrapper {
+        width: max-content;
+        height: max-content;
+        margin: 5px;
+        padding: 3px;
+        border-radius: 8px;
+        font-size: 15px;
+        cursor: pointer;
+        &:hover {
+            background-color: darken($color: #f0efed, $amount: 10);
+        }
+    }
+    .editable-container-inactivate {
+        @extend.editable-container;
+        background-color: darken($color: white, $amount: 10);
+    }
+    .divide-line {
+        height: 1px;
+        width: calc(100% - 10px);
+        margin-left: 5px;
+        margin-right: 5px;
+        background-color: black;
+    }
+}

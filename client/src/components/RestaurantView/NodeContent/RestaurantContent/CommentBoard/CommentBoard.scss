@@ -1,0 +1,31 @@
+.comments {
+    height: 100%;
+    .comment-title {
+        font-weight: 600;
+        font-size: 24px;
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+    .divide-line-row {
+        height: 1px;
+        margin: 20px 20px 20px 20px;
+        background-color: rgb(209, 208, 208);
+    }
+    .top-comment {
+        display: flex;
+        flex-direction: row;
+        .divide-line-column {
+            width: 2px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            margin-left: 10px;
+            background-color: rgb(75, 184, 247);
+        }
+        .sub-comments {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+        }
+    }
+    
+}

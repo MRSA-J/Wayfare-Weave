@@ -1,0 +1,52 @@
+[
+  {
+    type: "comment",
+    content: "This is a great place!",
+    filePath: { path: [], children: [] }, //something inside the iNode, since comment extended iNode, didn't delete it
+    nodeId: "comment1",
+    title: "nodecomment1", // "node"+nodeId    //not useful, same as above
+    dateCreated: "2023-11-27T12:34:56.789Z",
+    commentTo: "rest1",
+    createdBy: "user1",
+  },
+  {
+    type: "comment",
+    content: "Not bad, but could be better.",
+    filePath: { path: [], children: [] },
+    nodeId: "comment2",
+    title: "nodecomment2",
+    dateCreated: "2023-11-27T12:34:56.789Z",
+    commentTo: "rest2",
+    createdBy: "user2",
+  },
+  {
+    type: "comment",
+    content: "Amazing food and atmosphere!",
+    filePath: { path: ["continent"], children: ["country", "country"] },
+    nodeId: "comment3",
+    title: "nodecomment3",
+    dateCreated: "2023-11-27T12:34:56.789Z",
+    commentTo: "rest3",
+    createdBy: "user3",
+  },
+  {
+    type: "comment",
+    content: "I love the sushi here!",
+    filePath: { path: [], children: [] },
+    nodeId: "comment4",
+    title: "nodecomment4",
+    dateCreated: "2023-11-27T12:34:56.789Z",
+    commentTo: "rest4",
+    createdBy: "user4",
+  },
+  {
+    type: "comment",
+    content: "Friendly staff and good beer.",
+    filePath: { path: [], children: [] },
+    nodeId: "comment5",
+    title: "Comment 5",
+    dateCreated: "2023-11-27T12:34:56.789Z",
+    commentTo: "comment2",
+    createdBy: "user5",
+  },
+];

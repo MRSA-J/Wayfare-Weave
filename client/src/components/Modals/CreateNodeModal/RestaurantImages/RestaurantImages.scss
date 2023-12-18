@@ -1,0 +1,18 @@
+@import "../../../Button/Button.scss";
+
+.preview-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    .preview {
+        height: 50px;
+        margin-left: 15px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .delete-button {
+        margin-top: 20px;
+        margin-right: 50px;
+        @extend .button
+    }
+}

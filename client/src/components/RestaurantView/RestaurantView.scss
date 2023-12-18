@@ -1,0 +1,47 @@
+@import "../../global/globalCssVariables";
+
+.node {
+  height: calc(100vh - 50px);
+  display: flex;
+
+  .nodeProperties {
+    position: relative;
+    height: 100%;
+    z-index: 4;
+    background-color: $primary-background-color;
+  }
+
+  .nodeView {
+    height: 100%;
+    overflow-y: scroll;
+    padding-bottom: 20px;
+
+    .nodeView-json {
+      background-color: $selected-color;
+      overflow: hidden;
+      font-size: 12px;
+      padding: 20px;
+      border-radius: 5px;
+    }
+
+    .nodeView-scrollable {
+      position: relative;
+
+      .nodeView-breadcrumb {
+        display: flex;
+        padding: 10px;
+        justify-content: left;
+        align-items: center;
+        border-bottom: $standard-border;
+        padding-left: 20px;
+      }
+
+      .nodeView-content {
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+    }
+  }
+}

@@ -1,0 +1,129 @@
+@import "../../../global/globalCssVariables";
+@import "../../Button/Button.scss";
+$input-margin: 10px;
+
+.modal-font {
+  font-family: "Inter", sans-serif;
+}
+
+.modal-treeView {
+  max-height: $node-manager-max-height-in-modal;
+  overflow: auto;
+}
+
+.modal-input {
+  margin-top: $input-margin;
+  .image-input {
+    display: flex;
+    flex-direction: row
+    
+  }
+
+  .input-button {
+    margin: 5px 0px 0px 12px;
+    @extend .button;
+  }
+}
+
+.modal-section {
+  border-top: solid 1px $secondary-background-color;
+  margin-top: 15px;
+  padding-top: 10px;
+}
+
+.modal-title {
+  display: flex;
+  align-items: center;
+  .modal-title-tag {
+    margin-right: 5px;
+    background-color: $selected-color;
+    color: black;
+    padding: 3px 10px;
+    border-radius: 4px;
+    user-select: none;
+  }
+
+  .modal-title-header {
+    font-weight: bold;
+  }
+}
+
+.modal-error {
+  color: white;
+  font-size: 0.8rem;
+  background-color: $error-color;
+  padding: 5px 10px;
+  margin: 0px 20px;
+  position: absolute;
+  left: 0;
+  font-weight: 500;
+}
+
+.modal-footer-buttons {
+  display: flex;
+  flex-direction: row;
+  font-weight: 500;
+}
+
+.time-wrapper {
+  .time-title {
+    margin-top: 10px;
+  }
+  .time-input-wrapper {
+    display: flex;
+    flex-direction: row;
+    .timer {
+      margin: 5px;
+    }
+  }
+  
+}
+
+.results-list {
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 0px 8px #ddd;
+  border-radius: 10px;
+  max-height: 300px;
+  overflow-y: auto;
+
+  .search-result {
+    padding: 10px 20px;
+  }
+  
+  .search-result:hover {
+    background-color: #efefef;
+  }
+}
+
+.tag-wrapper {
+  display: flex;
+  flex-direction: row;
+  margin-top: 5px;
+  .tag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: max-content;
+    height: 70%;
+    font-size: 15px;
+    user-select: none;
+    // Font options
+    font-family: $header-font;
+  
+    // Color
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 3px 15px;
+    border-radius: 5px;
+    gap: 5px;
+    transition: 0.3s;
+    cursor: pointer;
+  
+    &:hover {
+      background-color: darken($secondary-background-color, 10);
+    }
+  }
+}

@@ -1,0 +1,59 @@
+@import "../../global/globalCssVariables";
+
+.treeView-wrapper {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  padding: 20px 0px 20px 0px;
+}
+
+.treeView-item{
+  text-align: center;
+  padding: 10px 5px 10px 5px;
+  margin: 15px 10px 15px 10px;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 0 10px white;
+  &:hover {
+    border: 1px dashed rgb(63, 46, 179);
+  }
+}
+
+.treeView-item-select{
+  @extend .treeView-item;
+  border: 2px double black
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: max-content;
+  height: 20px;
+  font-size: 15px;
+  user-select: none;
+  // Font options
+  font-family: $header-font;
+
+  // Color
+  padding: 3px 15px;
+  border-radius: 5px;
+  gap: 5px;
+  transition: 0.3s;
+  cursor: pointer;
+  margin: 0;
+  .text {
+    padding: 5px;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.categories-wrapper {
+  overflow-y: auto;
+}

@@ -1,0 +1,28 @@
+@import "../../../../../global/globalCssVariables";
+
+.editorContent {
+  margin-left: 10px;
+}
+
+.ProseMirror {
+  a {
+    color: #3366bb;
+    text-decoration: underline;
+
+    &:hover {
+      cursor: pointer;
+      color: #093075;
+    }
+  }
+}
+
+.save_btn {
+  width: max-content;
+  height: 30px;
+  margin: 15px;
+  padding: 4px 5px;
+  background-color: aliceblue;
+  font-size: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}

@@ -1,0 +1,23 @@
+.restaurant-attribution {
+  flex-direction: column;
+  height: 100%;
+
+  .image-gallery {
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    img {
+      height: 400px;
+    }
+  }
+  .sub-title {
+    font-weight: 600;
+    font-size: 24px;
+    padding-top: 40px;
+  }
+  .map-view {
+    border-radius: 50%;
+  }
+}

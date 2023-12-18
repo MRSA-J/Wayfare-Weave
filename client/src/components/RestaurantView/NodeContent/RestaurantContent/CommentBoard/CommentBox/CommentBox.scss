@@ -1,0 +1,70 @@
+.comment-content-wrapper {
+    margin: 5px;
+    .comment-box-header {
+        display: flex;
+        flex-direction: column;
+        align-items: self-start;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 15px;
+        .user-wrapper {
+            flex-direction: row;
+            display: flex;
+            align-items: center;
+            .user-name {
+                font-size: large;
+                font-weight: bold;
+            }
+            .reply-to {
+                color: grey;
+                font-size: small;
+                margin-left: 10px;
+            }
+        }
+        .create-at {
+            color: grey;
+            font-size: small;
+        }
+    }
+    .content-wrapper {
+        margin: 5px;
+    }
+    .comment-box-footer {
+        display: flex;
+        justify-content: right;
+        height: 20px;
+        width: 100%;
+        .icon-wrapper {
+            width: max-content;
+            height: max-content;
+            transform: translateY(-5px);
+            margin: 5px;
+            padding: 3px;
+            border-radius: 3px;
+            font-size: 15px;
+            cursor: pointer;
+            &:hover {
+                background-color: darken($color: #f0efed, $amount: 10);
+            }
+        }
+    }
+}
+
+.reply-wrapper {
+    display: flex;
+    // justify-content: right;
+    .input-box-wrapper {
+        position: relative;
+        width: 100%;
+        .input-box-header {
+            height: 30px;
+        }
+        .input-box-footer {
+            height: 25px;
+        }
+        .icon-wrapper {
+            font-size: 15px;
+        }
+    }
+}
+
