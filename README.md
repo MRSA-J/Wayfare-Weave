@@ -75,7 +75,7 @@ The client will start at `localhost:3000`
 - Calendar View
   ![Calendar View](https://github.com/MRSA-J/Wayfare-Weave/blob/main/demo_image/calendar_view.png)
   ![Agenda View](https://github.com/MRSA-J/Wayfare-Weave/blob/main/demo_image/agenda.png)
-  ![Calendar Day View]https://github.com/MRSA-J/Wayfare-Weave/blob/main/demo_image/calendar_day_view.png)
+  ![Calendar Day View](https://github.com/MRSA-J/Wayfare-Weave/blob/main/demo_image/calendar_day_view.png)
 
 - Schedule
   ![Schedule](https://github.com/MRSA-J/Wayfare-Weave/blob/main/demo_image/schedule.png)
